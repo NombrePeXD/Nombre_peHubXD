@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Nombre_pe Hub TEAM PERU ON TOP!!!", "BloodTheme")
+local Window = Library.CreateLib("Nombre_pe Hub v2.0 TEAM PERU ON TOP!!!", "BloodTheme")
 
 -- MAIN
 local Main = Window:NewTab("Scripts")
@@ -14,7 +14,7 @@ local MainSection = Main:NewSection("FE Hex Gui (esto esta muy OP xdd)")
 
 
 MainSection:NewButton("ejecutar", "Es una gui de comandos con remotes", function()
-    loadstring(game:HttpGet("https://gist.githubusercontent.com/dark-modz/9784d3edb1bc31a591baaff22ee09f7a/raw/6f1857201f881c3a62b1c0c1c858a0d61b1c1077/guis",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/itzyaboyluq/projectligma/main/01j813hbqnssnabc.lua"))()
 end)
 
 local MainSection = Main:NewSection("Infinite Yield (creo q todos ya sabes de que es)")
@@ -73,7 +73,7 @@ end)
 --JUEGOS
 local Juegos = Window:NewTab("Juegos compatibles")
 local JuegosSection = Juegos:NewSection("Ramp-Jumping-On-Sports-Cars")
-local JuegosSection = Juegos:NewSection("Tell Me! [2 Player Obby]")
+local JuegosSection = Juegos:NewSection("Peru city")
 local JuegosSection = Juegos:NewSection("La velocidad y salto es universal")
 
 --CREDITOS
@@ -81,3 +81,4 @@ local Creditos = Window:NewTab("Creditos")
 local CreditosSection = Creditos:NewSection("Creador:Nombre_pe(Creador de Team Peru)")
 local CreditosSection = Creditos:NewSection("Scripteo:Nombre_pe(Creador de Team Peru)")
 local CreditosSection = Creditos:NewSection("Discord:maestronalgeador")
+local CreditosSection = Creditos:NewSection("Invitacion:dsc.gg/teamperu")
